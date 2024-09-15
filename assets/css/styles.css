@@ -39,7 +39,8 @@ body {
   margin: 0;
   color: var(--font-color);
   background-color: var(--body-color);
-  font-family: var(--body-font); }
+  font-family: var(--body-font); 
+overflow:hidden;}
 
 h1 {
   filter: opacity(80%);

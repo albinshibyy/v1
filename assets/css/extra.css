@@ -1,4 +1,13 @@
-
+/* CUSTON FONT ADDED */
+@font-face {
+  font-family: 'Acme-Regular';
+  src: url('Acme-Regular.ttf') format('truetype');
+}
+/* CUSTON FONT ADDED */
+@font-face {
+  font-family: 'AveriaSansLibre-Regular';
+  src: url('AveriaSansLibre-Regular.ttf') format('truetype');
+}
 
 /* LOGO AND MENU EDIT SECTION MAIN NO OTHER I THINK NOW */
 .mail {
@@ -172,7 +181,17 @@
   .btn {
     background-color: grey;
   }
-  
+  /* NAVIGATION MENU SPECIAL EDIT FOR LI */
+.menuli {
+  font-family: 'Acme-Regular', sans-serif;
+  text-decoration: none;
+  color: white;
+  line-height: 4rem;
+}
+
+.menuli:hover {
+  color: grey;
+}
   a {
     color: brown;
     text-decoration: none;
@@ -204,17 +223,19 @@
   }
   
   p{
+    font-family: "AveriaSansLibre-Regular",sans-serif;
     margin-top: -.3rem;
     margin-bottom: .5rem;
     filter: opacity(70%);
   }
   .foot{
+    font-family: "AveriaSansLibre-Regular",sans-serif;
     font-size: x-small;
     margin-top: -0rem;
     filter: opacity(70%);
   }
   .icon {
-    margin-top: -4rem;
+    margin-top: .3rem;
     margin-right: 3.5px;
     transition: .3s;
     width: 24px;
@@ -227,3 +248,57 @@
   transform: translateY(-3px);
   }
   
+
+
+  .buttons {
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.buttons li {
+    max-width: 100%;
+}
+
+.buttons li a {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#buttons01 {
+    justify-content: flex-start;
+    gap: 0.75rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#buttons01 li a {
+    display: inline-block;
+    width: auto;
+    height: 2.10rem;
+    line-height: 2.10rem;
+    padding: 0 1.125rem;
+    vertical-align: middle;
+    font-family: 'AveriaSansLibre-Regular', sans-serif;
+    border-radius: 1rem;
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+#buttons01 .button {
+    background-color: #6e6d6d;
+    color: #FFFFFF;
+}
+
+#buttons01 .button:hover {
+    background-color: #393b3e !important;
+}

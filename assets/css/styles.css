@@ -1,22 +1,15 @@
 
-/* CUSTON FONT ADDED */
-@font-face {
-  font-family: 'Acme-Regular';
-  src: url('Acme-Regular.ttf') format('truetype');
-}
+
 
 :root {
   --body-color: #fff;
   --font-color:rgb(85, 78, 78);
-  --body-font: 'Acme-Regular';
+  --body-font: 'AveriaSansLibre-Regular';
   --h1-font-size: 1.8rem; 
 }
 [data-theme="dark"] {
   --body-color: #171c28;
-  --card-color: #110e1b;
   --font-color: #e7e7e7;
-  --text-color: #434c5e;
-  --number-color: #434c5e;
 }
   @media screen and (min-width: 768px) {
     :root {
@@ -79,16 +72,7 @@ img {
 .main-bg {
   color: #fff;
   height: 100vh; }
-  .main-bg__hero-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center; }
+  
 
 /*----- PAGES -----*/
 /*Nav*/

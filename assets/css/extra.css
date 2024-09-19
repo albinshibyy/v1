@@ -21,11 +21,22 @@
     opacity: .8;
     filter: contrast(20%);
   }
-  
+  strong{
+    font-size: 17px;
+    filter:opacity(100%);
+    font-weight: 700;
+  }
   .mail:hover {
     opacity: 1;
   }
-  
+  .t-img{
+    transition: .3s;
+    width: auto;
+    height: 5rem;
+    display: inline;
+    margin-bottom:-1.5rem;
+
+  }
   .logo {
     filter: contrast(20%);
     position: absolute;

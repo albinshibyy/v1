@@ -37,7 +37,9 @@ overflow: hidden;}
 
 h1 {
   filter: opacity(80%);
-  margin: 0; }
+  margin: 0;
+  letter-spacing: -1.5px;
+}
 
 ul {
   margin: 0;

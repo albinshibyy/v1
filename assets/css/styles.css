@@ -3,7 +3,7 @@
 
 :root {
   --body-color: #fff;
-  --font-color:rgb(85, 78, 78);
+  --font-color:#444452;
   --body-font: 'AveriaSansLibre-Regular';
   --h1-font-size: 1.8rem; 
 }
@@ -36,7 +36,6 @@ body {
 overflow: hidden;}
 
 h1 {
-  filter: opacity(80%);
   margin: 0;
   letter-spacing: -1.5px;
 }

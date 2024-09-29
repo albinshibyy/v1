@@ -3,13 +3,11 @@
   --font-color: #444452;
   --body-font: 'AveriaSansLibre-Regular';
   --h1-font-size: 1.8rem;
-  --bg-img: url('bg1.png');
 }
 
 [data-theme="dark"] {
   --body-color: #171c28;
   --font-color: #e7e7e7;
-  --bg-img: url('bg2.png')
 }
 
 @media screen and (min-width: 768px) {
@@ -36,11 +34,6 @@
 }
 
 body {
-  background-image: var(--bg-img);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   margin: 0;
   color: var(--font-color);
   background-color: var(--body-color);

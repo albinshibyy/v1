@@ -7,7 +7,7 @@
  > Please be a decent person and give me proper credit by linking back to my [website!](https://albinxshiby.github.io)
 
  ### LIVE DEMO:-
- Website demo link [here](https://albinxshiby.github.io)
+ Website demo link [here](https://albinshibyy.github.io)
 
  ### CREDITS
  <a href="https://www.flaticon.com/free-stickers/skill" title="skill stickers">Skill stickers created by paulalee - Flaticon</a>
@@ -15,4 +15,4 @@
  MIT License is added for this repo
  
  ### MAYBE FIND ME HERE
- @albinxshiby
+ @albinshibyy

@@ -257,7 +257,8 @@ a {
 
 p {
   font-family: "AveriaSansLibre-Regular", sans-serif;
-  margin-top: -.3rem;
+  margin-top: -.1rem;
+  line-height:18px;
   margin-bottom: .5rem;
 }
 
@@ -342,6 +343,7 @@ p {
   font-size: .9rem;
   font-weight: 100;
   margin-top: -8px;
+  margin-bottom:.3rem;
 }
 
 @media screen and (max-width:550px) {

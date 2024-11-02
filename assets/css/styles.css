@@ -68,7 +68,7 @@ img {
   -ms-grid-columns: 100%;
   grid-template-columns: 100%;
   max-width: 1200px;
-  margin-left: 1rem;
+  margin-left: 1.2rem;
   margin-right: 1rem;
 }
 
@@ -159,7 +159,13 @@ img {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .bd-grid {
+    margin-left: 3rem;
+    margin-right: auto;
+  }
 
+}
 @media screen and (min-width: 1200px) {
   .bd-grid {
     margin-left: auto;
